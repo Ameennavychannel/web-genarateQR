@@ -1,65 +1,87 @@
--------------------index-----------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator BY AMEEN</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app.css"media="print">
+    <link rel="stylesheet" href="app.css"import="text">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Itim&display=swap'>
+</head>
 
-
-                 
------------------------------------------คำสั่ง print---------------------------------------------------------------------------------------------------------------------------     
-
-			อยู่ ตรง head  <link rel="stylesheet" href="app.css"media="print">
-
--------------------button print----------------------------------------------------------------------------------------------------------------------------------------------------------
-     		
-		<div class="print"> 
-                    <br><button type="button" id="print"onclick="window.print();">print </button></br>
-                </div>
-
---------------------------------------comment------------------------------------------------------------------------------------------------------------------------------
- 
-https://www.powr.io/
-
-
-------------------------------------------ตัวอักษรวิ่ง -------------------------------------------------------------------------------------------------------------------------
-
-  <marquee scrolldelay="90"><font size="5" ><font color="#000000"> 
-                    <img src="https://i.ibb.co/t8qTcY1/heart.png" width="25" height="25" alt="อามีน หยงสตาร์" />
-                  <B>กรุณากรอกลิ้ง WEBSITE หรือ TEXT </B> <img src="https://i.ibb.co/t8qTcY1/heart.png" width="25" height="25" 
+<body>
+      <div class="container">
+        <div class="form">
+            <div class="form-control">
+<!-- -------------------ตัวอักษรเลื่อน-------------------------------------------------- -->
+                <body> <p>
+                  <marquee scrolldelay="90"><font size="5" ><font color="#000000">
+                    <img src="https://i.ibb.co/t8qTcY1/heart.png" width="25" height="25" alt="ครูอามีน หยงสตาร์" />
+                  <B>กรุณากรอกลิ้ง WEBSITE หรือ TEXT </B> <img src="https://i.ibb.co/t8qTcY1/heart.png" width="25" height="25"
                   alt="อามีน หยงสตาร์" /> </marquee> </p> </body>
             </div>
+            <div class="form-control">
+                <input type="text" id="data">
+            </div>
 
--------------------------------------------------------------------------------------------------------------------------------------
+<!-- ------------------------ปุ่มสร้าง qr และ Download------------------------ -->
 
-counter  https://siamecohost.com/member/free-graphic-counter.php
- 
-------------------------------------------------------------------------------------------------------------------------------------*
-	<center>
+            <div class="form-control">
+              <button id="btn">Generate QR Code</button><br>
+
+             <br> <img src="" id="img"> </br>
+
+              <br><button onclick="downloadImage()" style="background-color: #00fff2;" id="btn2">Download QR Code</button></br>
+          </div>
+
+<!-- -------------------------จำนวนผู้ใช้งาน----------------------- -->
+
+            <center>
                 <footer class="footer">
                   <section class="container">
                     <br><h> จำนวนผู้ใช้งาน </h></br>
+                    <br><script type='text/javascript' src='https://www.siamecohost.com/member/gcounter/graphcount.php?page=generater-qr.web.app&style=43&maxdigits=5'></script></br>
+                  </script>
+                  <div class="print">
+                    <br><button type="button" id="print"onclick="window.print();">print </button></br>
+                </div>
 
+<!-- ----------------------audio------------------------- -->
 
-credit
-		<footer class="footer">
-			<section class="container">
-				<p style="font-size:10px;">
-					<a style="color:blue;" target="_blank" href="_blank"
-						title="xxx ">ผู้พัฒนา </a>
+                <audio controls="" autoplay="" src="https://drive.google.com/uc?id=1a0B7hq9kLEI19kLmcO1dAGPqpe33e6P7">
+                  <p>Song For Life.</p>
+                </audio>
 
-					<a style="color:black;" target="_blank" href="_blank"
-						title="xxx"> |
-						นาย อามีน หยงสตาร์</a>
+<!-- ------------------สนัสนับสนุนผู้พัฒนา------------------------- -->
 
-				</p>
-			</section>
-		</footer>
-	</center>
+                <p style="font-size:13px;">
+                  <br><a style="color:turquoise;" target="_blank" href="img\qr.png"
+                    title="Csupport the developer ">สนับสนุนผู้พัฒนา </a>
 
+                  <a style="color:black;" target="_blank" href="https://web.facebook.com/ameenyongstar/"
+                    title="Facebook"> |
+                    <h> พัฒนาโดย นาย อามีน หยงสตาร์ </h></a></br>
+                </p></br>
+                  </section>
+                </footer>
 
+<!-- ------------------------comments----------------------------- -->
 
-----------------------------------ฟังชั่น ดาวน์โหลด-----------------------------------------
-            <div class="form-control">
-                <button id="btn">Generate QR Code</button><br>
-                <button onclick="downloadImage()" style="background-color: #ae4d4d;" id="btn2">Download QR Code</button>
+                <img src="" id="img">
+                <br><div class="powr-comments" id="f778bdb6_1641571239"></div><script src="https://www.powr.io/powr.js?platform=google"></script></br>
             </div>
+              </center>
+        </div>
 
---------------------------------------------------------------------------------------------
 
+    </script>
+    <script src="app.js"></script>
+    </body>
+    <body>
 
+    <body>
+  </body>
+
+</html>
